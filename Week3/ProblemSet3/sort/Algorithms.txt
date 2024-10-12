@@ -1,0 +1,33 @@
+Selection Sort:
+Look for smallest number in an array and swap it with the item on position 1.
+Look for the next smallest number and swap it with the item on posion 2.
+...
+repeat n times.
+
+Bubble Sort:
+look at items 1 and 2 and compare them.
+If the left one is greater than the right one
+    swap them
+compare 2 and 3
+    if 3 is greater than 2
+        swap them
+compare 3 and 4...
+
+repeat n-1 times
+
+when done start from the beginning and do the same n-2 times
+then do it n-3 times and so on
+...
+
+
+Merge Sort:
+Split the array in 2
+    if the array is of size 2
+        if left one is bigger swap them
+    if the array is of size 1
+        do nothing
+    if the array is of size > 2
+        sort()
+and apply sort on each side
+split the array in 2 and apply sort on each side
+

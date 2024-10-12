@@ -1,0 +1,10 @@
+1. Add functionality to calculate realized profits of past transactions either based
+on the transactions themselves or by creating a separate table in the database
+
+2. Make the page display the username of the currently logged user -
+preferably without having to retreive it from the database on every request
+
+Allow users to change their passwords.
+Allow users to add additional cash to their account.
+Allow users to buy more shares or sell shares of stocks they already own via index itself, without having to type stocks’ symbols manually.
+

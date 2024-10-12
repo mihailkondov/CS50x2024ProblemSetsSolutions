@@ -1,0 +1,15 @@
+To test your queries in VS Code, you can query the database by running
+
+$ cat filename.sql | sqlite3 movies.db
+
+where filename.sql is the file containing your SQL query.
+
+
+
+You can also run
+
+$ cat filename.sql | sqlite3 movies.db > output.txt
+
+to redirect the output of the query to a text file called output.txt. (This can be useful for checking how many rows are returned by your query!)
+
+$ cat <- this can be used to read all kinds of files in the terminal

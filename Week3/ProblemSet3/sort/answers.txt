@@ -1,0 +1,41 @@
+sort1 uses:
+    bubble sort
+
+How do you know?:
+    It's very fast when the numbers are already sorted and very slow when not.
+
+sort2 uses:
+    merge sort
+
+How do you know?:
+    It's faster than the other 2 and the working time is the same regardless of starting order. (O = Omega)
+
+sort3 uses:
+    selection sort
+
+How do you know?:
+    Runtime scales 20x when the numbers to sort are increased 5x. So not O(logn) or even O(n). Can't be merge sort.
+    Runtime stays the same no matter how the input numbers are arranged so it's not bubble sort.
+    Must be select sort then.
+
+
+sort1 random5000    0.91
+sort1 random10000   0.29
+sort1 random50000   8.73
+sort1 reversed10000 0.29
+sort1 reversed50000 6.94
+sort1 sorted50000   1.23
+
+sort2 random10000   0.67
+sort2 random50000   0.65
+sort2 reversed10000 0.07
+sort2 reversed50000 1.07
+sort2 sorted50000   1.02
+
+sort3 random10000   0.20
+sort3 random50000   4.00
+sort3 reversed10000 0.21
+sort3 reversed50000 3.96
+sort3 ordered50000  3.97
+
+

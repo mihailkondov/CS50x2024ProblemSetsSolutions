@@ -1,0 +1,19 @@
+sqlite> SELECT AVG(danceability), AVG(energy), AVG(valence) FROM songs;
++-------------------+-------------+--------------+
+| AVG(danceability) | AVG(energy) | AVG(valence) |
++-------------------+-------------+--------------+
+| 0.71646           | 0.65906     | 0.484443     |
++-------------------+-------------+--------------+
+
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+    The average listener likes dancable, relatively energetic songs (but not too energetic) with no particular preference for valence.
+    I'd call the aura rythmic I guess?
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+What better ways of calculating this aura would you propose?
+
+    Taking averages will be very inacurate in the cases where a listener likes both very dancable, energetic or high-valence songs
+    and at the same time likes non-dancable, low-energy and low-valence songs, but never songs where these parameters lie in the middle
+
+    Looking at value distributions might give a better picture.

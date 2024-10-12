@@ -1,0 +1,12 @@
+{% extends "layin.html" %}
+
+{% block body %}
+
+    <!--<form action="/greet" method="get">-->
+    <form action="/" method="post"> <!-- If I delete action="/" the form will send back to the route that called it-->
+        <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+        <button type="submit">Greet</button>
+    </form>
+
+{% endblock %}
+
