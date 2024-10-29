@@ -5,7 +5,7 @@ My final project is not included here yet.\
 I enjoyed working on the finance project from week 9 very much, so I am creating another repository called "finance" to keep developing that app.
 # Topics by lecture:
 0. **Scratch** - a graphics-based programming language.  
-Abstractions, Conditionals,  No solution to this problem set here. Topics covered in the lecture include Binary, ASCII, Unicode, Color, Algorithms, Pseudocode, Artificial Intelligence, Conditionals
+Binary, ASCII, Unicode, Color, Algorithms, Pseudocode, Artificial Intelligence, Conditionals
 1. **C**.  
 Machine Code, CS50 Library, Format Codes (%i, $d, %s etc.), Types, Conditionals, Variables, Loops, Functions, Scope, Function Composition, Linux, Integer Overflow, Truncation, Type Casting, Floating-Point Imprecision
 2. **Arrays**  
