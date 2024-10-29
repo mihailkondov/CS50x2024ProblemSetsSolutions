@@ -2,7 +2,7 @@
 These are the solutions to the problem sets from cs50x 2024.\
 The solutions pass all check50 tests.\
 My final project is not included here yet.\
-I enjoyed working on the finance project from week 9 very much, so I am creating another repository called "finance" to keep developing that app.
+I enjoyed working on the finance project from week 9 very much, so I created another repository called "finance" to keep developing that app.
 # Topics by lecture:
 0. **Scratch** - a graphics-based programming language.  
 Binary, ASCII, Unicode, Color, Algorithms, Pseudocode, Artificial Intelligence, Conditionals
